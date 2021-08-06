@@ -391,7 +391,49 @@
 
     <!-- get updates / modal trigger -->
 
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>Stay in the loop</h2>
+                <p class="lead">Get the latest updates as they happen</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero exercitationem voluptatibus porro, hic asperiores fuga illo voluptates obcaecati deleniti veritatis sunt saepe quasi deserunt ex ipsum. Est possimus, aspernatur, vitae eligendi rem odit quaerat, ipsum pariatur ratione maxime delectus fuga minus accusamus dolores iusto maiores accusantium cumque magnam placeat quia!</p>
+                <button class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#reg-modal">
+                  Register for Updates
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- modal itself -->
+    
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-hidden ="true" aria-labelledby="modal-title">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Get The Latest Updates</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint laborum amet assumenda sunt! Error officia explicabo dolore at eligendi excepturi a, reiciendis repellendus fugiat dignissimos, minus aut vero veritatis ratione.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, beatae! Soluta nemo at excepturi earum illum corrupti vitae autem fugit facere culpa. Explicabo nemo aperiam quod pariatur beatae placeat aut.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad veritatis corporis magni praesentium non illo! Corrupti vitae soluta sit, dolorem illum minus omnis explicabo porro, aut molestias, suscipit ad in?
+                    </p>
+                    <label for="modal-email" class="form-label">Your email address</label>
+                    <input type="email" class="form-control" id="modal-email" placeholder="e.g. mario@example.com">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+           
+        </div>
 
+    </div>
+
+    <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
